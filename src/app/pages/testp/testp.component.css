@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+#quizForm {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ffecec;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+#quizForm h2, #quizForm p {
+  text-align: left;
+  color: #000000;
+}
+
+#quizForm label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+label, input{
+  color: #000;
+}

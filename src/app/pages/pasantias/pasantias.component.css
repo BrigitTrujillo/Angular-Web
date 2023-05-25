@@ -1,0 +1,41 @@
+.card-body {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    max-width: 550px; /* Establece un ancho máximo de 300 píxeles */
+    margin: 0 auto; /* Centra el elemento horizontalmente en su contenedor */
+  }
+  
+  
+.card-body ul {
+    text-align: left; /* Alinea el contenido de la lista a la izquierda */
+    margin-left: 20px; /* Agrega un margen a la izquierda para separar la lista del borde */
+  }
+
+.card-title {
+    color: black; /* Establece el color del texto en negro */
+  }
+  
+
+  .search-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .search-container input[type=text] {
+    padding: 8px;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .search-container button {
+    padding: 8px 12px;
+    background-color: #5821ee;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
